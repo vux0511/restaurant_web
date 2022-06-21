@@ -1,0 +1,12 @@
+body > div {
+  margin: auto;
+}
+
+.add_cart {
+  display: inline-block;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #00172f;
+}

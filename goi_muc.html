@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/chitiet-sp.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/images/crab.png"/>
+    <title>Gỏi Mực Kiểu Thái
+    </title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar" style="height: 100px;">
+                <div class="logo">
+                  <a href="index.html">
+                    <h3 style="font-size: 30px; color: #555;">SEA-FOOD <i class="fas fa-cloud-meatball"></i></h3>
+                </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html" class="hoverr"><i class="fas fa-home" ></i> Trang Chủ</a></li>
+                        <li><a href="sanpham.html" class="hoverr">Sản Phẩm</a></li>
+                        <li><a href="datban.html" class="hoverr">Đặt Bàn</a></li>
+                        <!-- <li><a href="404.html" class="hoverr">Thông Tin</a></li> -->
+                        <li><a href="contact.html" class="hoverr">Liên Hệ</a></li>
+                        <li><a href="login.html" class="hoverr"> Tài Khoản</a></li>
+                    </ul>
+                </nav>
+                <a href="">
+                    <img src="images/cart.png" width="25px" height="25px">
+                </a>
+                <!-- <a href="">
+               <img src="images/user.png"width="28px" height="28px" style="margin-left : 20px">
+            </a> -->
+                <img src="images/menu.png" class="menu-icon" onclick="menuthaydoi()">
+
+            </div>
+            <hr style="border:.1px solid #dddada;">
+        </div>
+    </div>
+    <!-- CHI TIET SAN PHAM -->
+    <div class="small-container ct-sanpham">
+        <div class="row">
+            <div class="col-2" style="margin-top: -50px;">
+                <img src="images/goi_muc.jpg" width="100%" id="AnhSanSham">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/goi_muc2.jpg" width="100%" class="AnhNho">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/goi_muc3.jpg" width="100%" class="AnhNho">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/goi_muc4.jpg" width="100%" class="AnhNho">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/goi_muc.jpg" width="100%" class="AnhNho">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2" style="margin-bottom: 350px;">
+                <p style="margin-bottom: 13px;">Trang chủ / Món Khai Vị</p>
+                <h2 style="font-size: 35px;" class="title_mon_an">Gỏi Mực Kiểu Thái</h2>
+                <p>Thương hiệu : ( Đang cập nhật ...)</p>
+                <p>Loại: ( Đang cập nhật ...)</p>
+                <h4 style="color: #ff523b;">165.000 VNĐ</h4>
+                <h3 style="color: #333;">Chi Tiết Sản Phẩm <i class="fa fa-indent"></i></h3>
+                <br>
+                <p style="color: #333;">Món gỏi mực kiểu thái mang hơi hướng ẩm thực Thái là sự hòa trộn giữa thực phẩm tươi sống, gia vị và thảo dược, đặc biệt khi nhắc tới ẩm thực xứ Chùa Vàng, chúng ta thường nhớ ngay đến những món ăn chua cay. </p>
+                <div class="row">
+                    <select>
+                     <option>Số lượng</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                 </select>
+                    <select>
+                    <option>Số người ăn</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                </select>
+                </div>
+                <div class="btn-dathang">
+                    <a href="datban.html" class="btn" style="width: 180px;">Đặt Bàn Ngay</a>
+                    <a href="giohang.html" class="btn" id="dat_mon">Đặt món ngay</a>
+                </div>
+                <p>Share link : <i class="fas fa-link" st></i>&ensp;<i class="fab fa-facebook"></i>&ensp;<i class="fab fa-facebook-messenger"></i>&ensp;<i class="fab fa-google"></i></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SAN PHAM -->
+
+    <h2 style="margin-left: 255px;margin-top: -50px; margin-bottom: 40px; color: #ff523b    ;">CÁC SẢN PHẨM TƯƠNG TỰ</h2>
+
+    <div class="small-container">
+        <div class="row" style="height: 450px;">
+            <div class="col-4">
+                <div style="padding: 3px;  display: block;color:#fff;  position: absolute;background-color: #ff523b;margin: 10px;">
+                    <p style="padding:5px;color:#fff">SALE 50%</p>
+                </div>
+                <a href="chitiet-sp.html">
+                    <div class="icon_anh">
+                        <a href="sanpham.html">
+                            <div class="box">
+                                <center><i class='fas fa-search'></i></center>
+                            </div>
+                        </a>
+                        <div class="box">
+                            <center><i class="far fa-heart"></i></center>
+                        </div>
+                        <a href="giohang.html">
+                            <div class="box">
+                                <center><i class="fas fa-shopping-cart"></i></center>
+                            </div>
+                        </a>
+                    </div>
+                    <img src="images/hau_phap_nuong.jpg" class="hu">
+                    <a href="hau_phap_nuong.html">
+                    <h4>Hàu Pháp Nướng 3 Vị</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>199.000 VND</p>
+              </a>
+                </a>
+            </div>
+            <div class="col-4">
+                <div style="padding: 3px;  display: block;color:#fff;  position: absolute;background-color: #ff523b;margin: 10px;">
+                    <p style="padding:5px;color:#fff">SALE 50%</p>
+                </div>
+                <div class="icon_anh">
+                    <a href="sanpham.html">
+                        <div class="box">
+                            <center><i class='fas fa-search'></i></center>
+                        </div>
+                    </a>
+                    <div class="box">
+                        <center><i class="far fa-heart"></i></center>
+                    </div>
+                    <a href="giohang.html">
+                        <div class="box">
+                            <center><i class="fas fa-shopping-cart"></i></center>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/cha_cua.jpg" class="hu">
+                <a href="cha_cua.html">
+                    <h4>Chả Cua Cuộn Khoai Môn</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>69.000 VNĐ</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <div style="padding: 3px;  display: block;color:#fff;  position: absolute;background-color: #ff523b;margin: 10px;">
+                    <p style="padding:5px;color:#fff">SALE 50%</p>
+                </div>
+                <div class="icon_anh">
+                    <a href="sanpham.html">
+                        <div class="box">
+                            <center><i class='fas fa-search'></i></center>
+                        </div>
+                    </a>
+                    <div class="box">
+                        <center><i class="far fa-heart"></i></center>
+                    </div>
+                    <a href="giohang.html">
+                        <div class="box">
+                            <center><i class="fas fa-shopping-cart"></i></center>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/khoaitaychien.jpg" class="hu">
+                <a href="khoaitaychien.html">
+                    <h4>Khoai Tây Chiên</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>59.000 VNĐ</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <div style="padding: 3px;  display: block;color:#fff;  position: absolute;background-color: #ff523b;margin: 10px;">
+                    <p style="padding:5px;color:#fff">SALE 50%</p>
+                </div>
+                <div class="icon_anh">
+                    <a href="sanpham.html">
+                        <div class="box">
+                            <center><i class='fas fa-search'></i></center>
+                        </div>
+                    </a>
+                    <div class="box">
+                        <center><i class="far fa-heart"></i></center>
+                    </div>
+                    <a href="giohang.html">
+                        <div class="box">
+                            <center><i class="fas fa-shopping-cart"></i></center>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/xuc_xich_nhat.jpg" class="hu">
+                <a href="xuc_xich_nhat.html">
+                    <h4>Xúc Xích Nhật Nướng</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>59.000</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr style="width: 80%; margin-left: 150px; margin-top: 50px; background-color: #ff523b; border: 1px solid #ff523b;">
+
+    <!-- FOOTER -->
+    <div class="footer" style="margin-top: 50px;">
+        <div class="container ">
+            <div class="row ">
+                <div class="footer-col-2 ">
+                    <img src="images/nguoi_iu.jpg ">
+                    <p class="copyright "><i class="far fa-copyright "></i> Copyright 2021 - Hoàng Văn Vũ</p>
+                </div>
+                <div class="footer-col-2 " style="line-height: 35px; ">
+                    <h3>Thông tin liên hệ</h3>
+                    <ul style="margin-top: -10px;">
+                        <li><i class="fas fa-user "></i> Hoàng Văn Vũ</li>
+                        <li><i class="fas fa-phone-square-alt "></i> 033.4373.123</li>
+                        <li><i class='fas fa-mail-bulk'></i> vux.0511@gmail.com </li>
+                        <li><i class='fas fa-map-marker-alt'></i> Hà Tĩnh , Việt Nam </li>
+                    </ul>
+                </div>
+                <div class="footer-col-3 " style="color: #fff; ">
+                    <h3>Các Liên Kết</h3>
+                    <ul>
+                        <li><a href=" "><i class="fas fa-ticket-alt "></i> Mã giảm giá</a></li>
+                        <li><a href=" "><i class="far fa-newspaper "></i> Bài viết mới</a> </li>
+                        <li><a href=" "><i class="fas fa-shipping-fast "></i> Chính sách giao hàng</a> </li>
+                        <li><a href=" "><i class="far fa-handshake "></i> Chính sách hoàn trả</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-col-4 ">
+                    <h3>Theo dõi tại</h3>
+                    <ul>
+                        <li><a href=" "><i class='fab fa-facebook'></i>  Facebook</a></li>
+                        <li><a href="https://www.instagram.com/vux_0511/ "><i class='fab fa-instagram'></i>  Instagram</a></li>
+                        <li><a href=" "><i class='fab fa-youtube'></i> Youtube</a></li>
+                        <li><a href=" "><i class='fab fa-twitter'></i> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS FOR MENU -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menuthaydoi() {
+            if (MenuItems.style.maxHeight == "0px";) {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <!-- JS IMG SMALL -->
+    <script>
+        var AnhSanSham = document.getElementById("AnhSanSham");
+        var AnhNho = document.getElementsByClassName("AnhNho");
+
+        AnhNho[0].onclick = function() {
+            AnhSanSham.src = AnhNho[0].src;
+        }
+        AnhNho[1].onclick = function() {
+            AnhSanSham.src = AnhNho[1].src;
+        }
+        AnhNho[2].onclick = function() {
+            AnhSanSham.src = AnhNho[2].src;
+        }
+        AnhNho[3].onclick = function() {
+            AnhSanSham.src = AnhNho[3].src;
+        }
+    </script>
+</body>
+
+</html>
